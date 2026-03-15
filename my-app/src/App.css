@@ -1,8 +1,8 @@
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, sunset;
+  themes: lemonade;
 }
 
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -185,4 +185,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */
