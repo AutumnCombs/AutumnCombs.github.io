@@ -7,9 +7,9 @@ import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 // import Blog from "./pages/Blog"
 // import Skills from "./pages/Skills"
-// import About from "./pages/About"
+import About from "./pages/About"
 // import Resume from "./pages/Resume"
-// import Contact from "./pages/Contact"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -21,10 +21,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           {/* <Route path="/blog" element={<Blog />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/skills" element={<Skills />} /> */}
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route path="/resume" element={<Resume />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
 
         {/* <Footer /> */}

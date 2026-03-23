@@ -7,7 +7,7 @@ interface Props {
 
 export default function ProjectCard({ title, description, tech, github }: Props) {
   return (
-    <div className="border border-slate-800 p-6 rounded-xl hover:border-accent transition">
+    <div className="border border-slate-800 p-6 rounded-xl hover:border-accent transition hover:border-sky-400 transition">
 
       <h3 className="text-xl font-semibold mb-2">
         {title}
