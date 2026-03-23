@@ -10,7 +10,7 @@ export const projects = [
     title: "Nuclear Material Tracking Application - NUTRON",
     description:
       "Research and analysis of the Suterusu kernel rootkit.",
-    tech: ["Angular", "Ruby", "Sqlite", "Postgres", ""],
+    tech: ["Angular", "Ruby", "Sqlite", "Postgres", "Whimsical"],
     github: "#"
   },
   {
