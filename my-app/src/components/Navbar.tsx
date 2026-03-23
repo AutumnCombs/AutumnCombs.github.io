@@ -18,6 +18,7 @@
 // }
 
 import { Link, useLocation } from "react-router-dom"
+// import LogoTrans from "../assets/LogoTrans.png"
 
 export default function Navbar() {
   const location = useLocation()
@@ -35,6 +36,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center px-8 py-5 border-b border-slate-800 backdrop-blur">
 
       <h1 className="text-xl font-bold tracking-tight">
+        {/* <img src={LogoTrans} alt="Logo" className="h-8 w-8 mr-2" /> */}
         Autumn Combs
       </h1>
 
