@@ -1,17 +1,22 @@
+import { NumberedListIcon } from "@heroicons/react/24/outline";
+import NUTRON from "../assets/NUTRON.png"
+
 export const projects = [
   {
     title: "DeepLynx Nexus",
     description:
-      "Research and analysis of the Suterusu kernel rootkit.",
-    tech: ["React", "C#", ".Net", "Postgres", "DuckDB", "Figma", "LucidCharts"],
-    github: "#"
+      "Building full stack applications for deep learning and data analysis.",
+    tech: ["React", "C#", ".Net", "Postgres", "DuckDB", "Figma", "LucidCharts", "Rust"],
+    github: "#",
+    image: NUTRON,
   },
   {
     title: "Nuclear Material Tracking Application - NUTRON",
     description:
-      "Research and analysis of the Suterusu kernel rootkit.",
+      "Building full stack applications for nuclear material tracking.",
     tech: ["Angular", "Ruby", "Sqlite", "Postgres", "Whimsical"],
-    github: "#"
+    github: "#",
+    image: NUTRON,
   },
   {
     title: "CI/CD Security Pipeline",
